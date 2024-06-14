@@ -10,14 +10,8 @@ export default function Header() {
       <Link to="/" className="font-bold flex items-center justify-center gap-3">
         <VmailLogo />
         <button className="cool-btn">
-          <span>VMAIL.DEV</span>
+          <span>iFAKE.EMAIL</span>
         </button>
-      </Link>
-      <Link
-        to="https://chat.sorapi.dev"
-        target="_blank"
-        className="ml-auto text-sm md:text-base hidden md:block">
-        {t("GPT")}
       </Link>
       <Link
         to="/about"
