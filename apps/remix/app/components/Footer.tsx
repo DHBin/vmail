@@ -1,7 +1,4 @@
 import { Link } from "@remix-run/react";
-import Twitter from "./icons/Twitter";
-import Github from "./icons/GitHub";
-import { MailIcon } from "icons";
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
@@ -22,9 +19,6 @@ export default function Footer() {
         <Link to="/about">{t("About")}</Link>
         <Link to="/privacy">{t("Privacy")}</Link>
         <Link to="/terms">{t("Terms")}</Link>
-        <Link to="https://status.wr.do" target="_blank">
-          Status
-        </Link>
       </div>
       <div className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
       </div>
